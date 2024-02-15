@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707350400&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    display: inline;
+    width: 100%;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    color: rgb(168, 194, 219);
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    border: 1px solid #78d3f7;
+    border-radius: 5px;
+    background-image: url("https://img.freepik.com/premium-photo/molecules-technology-with-polygonal-shapes_7247-2142.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(219, 17, 44);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-size: contain;
+  }
+  
+  .message {
+    display: block;
+    color: rgb(212, 115, 25);
+    font-size: 0.8em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .valid-icon {
+    background-image: url('https://iconscout.com/icon/invalid-3414069');
+  }
+  
+  .invalid-icon {
+    background-image: url('invalid.png');
+  }

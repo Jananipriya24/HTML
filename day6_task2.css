@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://generations.krea.ai/images/4af94fa4-c139-408f-9a35-0e91ab1b67e5.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ea2e79;
+    text-align: center;
+  }
+  h2 {
+    color: rgb(52, 34, 93);
+  }
+  
+  .menu, .order {
+    width: 50%;
+    float: left;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ad88d4;
+    color: #483d69;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #521c44;
+  }

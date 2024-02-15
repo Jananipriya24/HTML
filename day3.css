@@ -1,0 +1,51 @@
+body{
+    background-color:darksalmon;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+}
+.flexbox > div {
+    background-color: #f1f1f1;
+    width: 350px;
+    margin: 25px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 75px;
+  }
+.top{
+    display: flex;
+}
+.top >div{
+    background-color: rgb(197, 164, 228);
+    width: 700%;
+    margin: 25px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.bottom{
+    display: flex;
+}
+.bottom >div{
+    background-color: rgb(197, 164, 228);
+    width: 700%;
+    margin: 25px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    text-align: center;
+}
+.gallery >div{
+    background-color: antiquewhite;
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    font-size: 35px;
+    line-height: 45px;
+}

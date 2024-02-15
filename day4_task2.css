@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightblue;
+    background-image: url("https://img.freepik.com/free-vector/tv-show-led-screen-stage-lcd-wall-background_107791-21144.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    width: 800px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScpn0XX9Rwlbvxcq8KJ9RgGfheD1w8OIYJYgeivoEKSRprVCvbzywdnjHa8xRZP_coHxg&usqp=CAU");
+    color: #fff;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+h1 {
+    color:rgb(234, 183, 242);
+    position: relative;
+    top: 0%;
+    text-shadow: 2px 2px;
+    border-style: solid;
+    width: 50%;
+    left: 25% ;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#score-container {
+    margin-top: 20px;
+}
